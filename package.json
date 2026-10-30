@@ -1,0 +1,15 @@
+{
+  "name": "discord-bot-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test policy.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}
